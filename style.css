@@ -107,15 +107,3 @@
 #project-div4:hover #overlay4 {
     opacity: 1;
 }
-
-/* Smartphones (portrait) */
-@media only screen and (max-width : 450px) {
-
-    .overlay{
-        top: 74.5%;
-        height: 10.5%;
-        padding-right: 0;
-    }
-
-}
-
