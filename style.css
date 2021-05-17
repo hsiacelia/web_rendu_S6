@@ -2,6 +2,8 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
+    margin-bottom: -15%;
+    padding-bottom: 0;
     text-align: center;
     display: flex;
 }
@@ -14,11 +16,106 @@
     float: right;
     text-align: left;
     padding-left: 10%;
-    width: 50%;
-
 }
 
 #text-img{
     height: 15%;
     width: 50%;
 }
+
+#project-title{
+    width: 50%;
+    padding-left: 10%;
+    float: left;
+    text-align: left;
+}
+
+#project-menu{
+    width: 50%;
+}
+
+#project-nav{
+    list-style: none;
+    margin:none;
+    width: 100%;
+    float: right;
+    display: flex;
+}
+
+#project-header-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+}
+.project-nav-li:not(:last-child){
+    margin-right: 10%;
+}
+
+#project-container{
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#project-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: 2s;
+    text-align: center;
+}
+
+.project-container-img{
+    width: 75%;
+    display: absolute;
+}
+
+.overlay{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 169%;
+    margin-left: 2.5%;
+    height: 35%;
+    background: rgba(11, 236, 48, 0.589); /* Black see-through */
+    color: #f1f1f1; 
+    width: 15%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    float: center;
+}
+#project-div1:hover #overlay1 {
+    opacity: 1;
+}
+
+#project-div2:hover #overlay2 {
+    opacity: 1;
+}
+
+#project-div3:hover #overlay3 {
+    opacity: 1;
+}
+
+#project-div4:hover #overlay4 {
+    opacity: 1;
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 450px) {
+
+    .overlay{
+        top: 74.5%;
+        height: 10.5%;
+        padding-right: 0;
+    }
+
+}
+

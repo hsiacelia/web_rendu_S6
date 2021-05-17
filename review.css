@@ -1,0 +1,49 @@
+#review-container{
+    margin-top: 7%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(247, 242, 242);
+}
+
+#review{
+    margin: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#middle{
+    display: flex;
+}
+
+.review-text{
+    border: black solid 2px;
+    background-color: white;
+    padding-top: 8%;
+}
+
+.round-img{
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -9%;
+}
+
+#bottom{
+    padding: 0;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom img{
+    width: 8%;
+    height: auto;
+}
+
+#first-customer{
+    margin-right: 2%;
+}
+
+#second-customer{
+    margin-left: 2%;
+}
