@@ -35,3 +35,26 @@ for (var i = 0 ; i < slideButton.length; i++) {
     });
 
 }
+
+// allow to change slide every 3 seconds
+setTimeout(function(){ 
+    loopSlide();
+}, 3000);
+
+function loopSlide(){
+    
+    console.log('change');
+    if(counter < 2){
+        counter++;
+    }else{
+        counter = 0;
+    }
+    
+    carouselSlide.style.transition = 'transform 0.4s ease-in-out';
+    carouselSlide.style.transform = 'translate(' + (-size * counter) + 'px)';
+
+    setTimeout(function(){ 
+        loopSlide();
+    }, 3000);
+
+}
