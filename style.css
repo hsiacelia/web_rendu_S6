@@ -1,0 +1,24 @@
+#about{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+}
+
+#about-img{
+    height: 60%;
+}
+
+#about-text{
+    float: right;
+    text-align: left;
+    padding-left: 10%;
+    width: 50%;
+
+}
+
+#text-img{
+    height: 15%;
+    width: 50%;
+}
